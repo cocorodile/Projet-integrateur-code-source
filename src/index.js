@@ -8,7 +8,7 @@ import {UserContextProvider} from './context/userContext';
 
 ReactDOM.render(
   
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
       <UserContextProvider>
       <App />
       </UserContextProvider>
